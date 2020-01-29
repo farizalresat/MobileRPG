@@ -1,0 +1,15 @@
+[gd_resource type="Theme" load_steps=4 format=2]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.286275, 0.0705882, 0.0705882, 1 )
+
+[sub_resource type="DynamicFontData" id=2]
+font_path = "res://Theme/PixelRPG.ttf"
+
+[sub_resource type="DynamicFont" id=3]
+size = 6
+font_data = SubResource( 2 )
+
+[resource]
+default_font = SubResource( 3 )
+Button/styles/ = SubResource( 1 )

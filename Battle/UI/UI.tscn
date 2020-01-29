@@ -1,0 +1,72 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Theme/ButtonTheme.tres" type="Theme" id=1]
+
+[node name="UI" type="Control"]
+margin_left = 2.12132
+margin_top = 46.669
+margin_right = 42.1213
+margin_bottom = 86.669
+theme = ExtResource( 1 )
+
+[node name="TextBoxPanel" type="Panel" parent="."]
+margin_top = 248.137
+margin_right = 180.0
+margin_bottom = 273.137
+
+[node name="StatsPanel" type="Panel" parent="."]
+margin_left = 0.353554
+margin_top = 49.0
+margin_right = 90.0
+margin_bottom = 74.0
+
+[node name="GridContainer" type="GridContainer" parent="."]
+margin_left = 10.4142
+margin_top = 86.6066
+margin_right = 82.4142
+margin_bottom = 140.606
+columns = 2
+
+[node name="Button" type="Button" parent="GridContainer"]
+margin_right = 34.0
+margin_bottom = 12.0
+text = "SWORD"
+
+[node name="Button2" type="Button" parent="GridContainer"]
+margin_left = 38.0
+margin_right = 72.0
+margin_bottom = 12.0
+text = "SWORD"
+
+[node name="Button3" type="Button" parent="GridContainer"]
+margin_top = 16.0
+margin_right = 34.0
+margin_bottom = 28.0
+text = "SWORD"
+
+[node name="Button4" type="Button" parent="GridContainer"]
+margin_left = 38.0
+margin_top = 16.0
+margin_right = 72.0
+margin_bottom = 28.0
+text = "SWORD"
+
+[node name="Button5" type="Button" parent="GridContainer"]
+margin_top = 32.0
+margin_right = 34.0
+margin_bottom = 44.0
+text = "SWORD"
+
+[node name="Button6" type="Button" parent="GridContainer"]
+margin_left = 38.0
+margin_top = 32.0
+margin_right = 72.0
+margin_bottom = 44.0
+text = "SWORD"
+
+[node name="Button" type="Button" parent="."]
+margin_left = 68.0
+margin_top = 181.0
+margin_right = 125.0
+margin_bottom = 207.0
+text = "gfgfgdfgd"
